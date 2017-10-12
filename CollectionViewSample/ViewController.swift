@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController ,UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
     
     var CollectionView : UICollectionView!
-    let CollectionNum:Int = 50
+    let CollectionNum:Int = 20
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -46,7 +46,14 @@ class ViewController: UIViewController ,UICollectionViewDataSource, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView,layout collectionViewLayout: UICollectionViewLayout,sizeForItemAt indexPath: IndexPath) -> CGSize{
-        return CGSize(width: 80, height: 80)
+        switch indexPath.section {
+        case 0:
+            return CGSize(width: 40, height: 40)
+        case 1:
+            return CGSize(width: 100, height: 100)
+        default:
+            return CGSize(width: 80, height: 80)
+        }
     }
     
     //section
