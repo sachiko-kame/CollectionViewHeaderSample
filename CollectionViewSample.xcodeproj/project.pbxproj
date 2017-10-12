@@ -16,6 +16,9 @@
 		841270991F8F9A6B00CBFA37 /* CollectionViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270981F8F9A6B00CBFA37 /* CollectionViewSampleUITests.swift */; };
 		841270A81F8F9F9900CBFA37 /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270A61F8F9F9900CBFA37 /* SampleCollectionViewCell.swift */; };
 		841270A91F8F9F9900CBFA37 /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841270A71F8F9F9900CBFA37 /* SampleCollectionViewCell.xib */; };
+		841270AB1F8FA18A00CBFA37 /* other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270AA1F8FA18A00CBFA37 /* other.swift */; };
+		841270AD1F8FA1EB00CBFA37 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270AC1F8FA1EB00CBFA37 /* UICollectionViewExtension.swift */; };
+		841270AF1F8FA24A00CBFA37 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270AE1F8FA24A00CBFA37 /* NSObjectExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		8412709A1F8F9A6B00CBFA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841270A61F8F9F9900CBFA37 /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
 		841270A71F8F9F9900CBFA37 /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
+		841270AA1F8FA18A00CBFA37 /* other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = other.swift; sourceTree = "<group>"; };
+		841270AC1F8FA1EB00CBFA37 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		841270AE1F8FA24A00CBFA37 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				841270781F8F9A6A00CBFA37 /* AppDelegate.swift */,
+				841270AA1F8FA18A00CBFA37 /* other.swift */,
 				8412707A1F8F9A6A00CBFA37 /* ViewController.swift */,
 				8412707C1F8F9A6A00CBFA37 /* Main.storyboard */,
-				841270A61F8F9F9900CBFA37 /* SampleCollectionViewCell.swift */,
-				841270A71F8F9F9900CBFA37 /* SampleCollectionViewCell.xib */,
+				841270B11F8FA27A00CBFA37 /* parts */,
+				841270B01F8FA25C00CBFA37 /* Extension */,
 				8412707F1F8F9A6A00CBFA37 /* Assets.xcassets */,
 				841270811F8F9A6A00CBFA37 /* LaunchScreen.storyboard */,
 				841270841F8F9A6A00CBFA37 /* Info.plist */,
@@ -129,6 +136,24 @@
 				8412709A1F8F9A6B00CBFA37 /* Info.plist */,
 			);
 			path = CollectionViewSampleUITests;
+			sourceTree = "<group>";
+		};
+		841270B01F8FA25C00CBFA37 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				841270AC1F8FA1EB00CBFA37 /* UICollectionViewExtension.swift */,
+				841270AE1F8FA24A00CBFA37 /* NSObjectExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		841270B11F8FA27A00CBFA37 /* parts */ = {
+			isa = PBXGroup;
+			children = (
+				841270A61F8F9F9900CBFA37 /* SampleCollectionViewCell.swift */,
+				841270A71F8F9F9900CBFA37 /* SampleCollectionViewCell.xib */,
+			);
+			path = parts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841270AB1F8FA18A00CBFA37 /* other.swift in Sources */,
+				841270AF1F8FA24A00CBFA37 /* NSObjectExtension.swift in Sources */,
 				8412707B1F8F9A6A00CBFA37 /* ViewController.swift in Sources */,
 				841270A81F8F9F9900CBFA37 /* SampleCollectionViewCell.swift in Sources */,
 				841270791F8F9A6A00CBFA37 /* AppDelegate.swift in Sources */,
+				841270AD1F8FA1EB00CBFA37 /* UICollectionViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

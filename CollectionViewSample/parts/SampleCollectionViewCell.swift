@@ -9,10 +9,17 @@
 import UIKit
 
 class SampleCollectionViewCell: UICollectionViewCell {
-
+    
+    @IBOutlet weak var topLabel: UILabel!
+    @IBOutlet weak var bottomLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
+    func set(top:String, bottom:String){
+        self.topLabel.text = top
+        self.bottomLabel.text = bottom
+    }
 }
