@@ -19,6 +19,8 @@
 		841270AB1F8FA18A00CBFA37 /* other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270AA1F8FA18A00CBFA37 /* other.swift */; };
 		841270AD1F8FA1EB00CBFA37 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270AC1F8FA1EB00CBFA37 /* UICollectionViewExtension.swift */; };
 		841270AF1F8FA24A00CBFA37 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270AE1F8FA24A00CBFA37 /* NSObjectExtension.swift */; };
+		841270B41F8FAC7F00CBFA37 /* SampleCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270B21F8FAC7F00CBFA37 /* SampleCollectionReusableView.swift */; };
+		841270B51F8FAC7F00CBFA37 /* SampleCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841270B31F8FAC7F00CBFA37 /* SampleCollectionReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		841270AA1F8FA18A00CBFA37 /* other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = other.swift; sourceTree = "<group>"; };
 		841270AC1F8FA1EB00CBFA37 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
 		841270AE1F8FA24A00CBFA37 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		841270B21F8FAC7F00CBFA37 /* SampleCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionReusableView.swift; sourceTree = "<group>"; };
+		841270B31F8FAC7F00CBFA37 /* SampleCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,8 @@
 			children = (
 				841270A61F8F9F9900CBFA37 /* SampleCollectionViewCell.swift */,
 				841270A71F8F9F9900CBFA37 /* SampleCollectionViewCell.xib */,
+				841270B21F8FAC7F00CBFA37 /* SampleCollectionReusableView.swift */,
+				841270B31F8FAC7F00CBFA37 /* SampleCollectionReusableView.xib */,
 			);
 			path = parts;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 				841270831F8F9A6A00CBFA37 /* LaunchScreen.storyboard in Resources */,
 				841270801F8F9A6A00CBFA37 /* Assets.xcassets in Resources */,
 				841270A91F8F9F9900CBFA37 /* SampleCollectionViewCell.xib in Resources */,
+				841270B51F8FAC7F00CBFA37 /* SampleCollectionReusableView.xib in Resources */,
 				8412707E1F8F9A6A00CBFA37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841270B41F8FAC7F00CBFA37 /* SampleCollectionReusableView.swift in Sources */,
 				841270AB1F8FA18A00CBFA37 /* other.swift in Sources */,
 				841270AF1F8FA24A00CBFA37 /* NSObjectExtension.swift in Sources */,
 				8412707B1F8F9A6A00CBFA37 /* ViewController.swift in Sources */,
