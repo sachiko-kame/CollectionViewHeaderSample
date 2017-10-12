@@ -74,6 +74,11 @@ class ViewController: UIViewController ,UICollectionViewDataSource, UICollection
        return sectionHeaderView
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let ind = indexPath.row
+        print("👺\(ind)")
+    }
+    
 //    func collectionView(_ collectionView: UICollectionView,
 //                        layout collectionViewLayout: UICollectionViewLayout,
 //                        referenceSizeForHeaderInSection section: Int) -> CGSize{
