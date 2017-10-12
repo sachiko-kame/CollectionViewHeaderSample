@@ -49,11 +49,16 @@ class ViewController: UIViewController ,UICollectionViewDataSource, UICollection
         return CGSize(width: 80, height: 80)
     }
     
-//    //section
+    //section
 //    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
 //        return 3
 //    }
     
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int{
+        return 3
+    }
+   
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         
         collectionView.register(reusableViewType: SampleCollectionReusableView.self)
