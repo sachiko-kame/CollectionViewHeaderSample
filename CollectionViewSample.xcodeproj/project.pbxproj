@@ -14,6 +14,8 @@
 		841270831F8F9A6A00CBFA37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841270811F8F9A6A00CBFA37 /* LaunchScreen.storyboard */; };
 		8412708E1F8F9A6A00CBFA37 /* CollectionViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412708D1F8F9A6A00CBFA37 /* CollectionViewSampleTests.swift */; };
 		841270991F8F9A6B00CBFA37 /* CollectionViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270981F8F9A6B00CBFA37 /* CollectionViewSampleUITests.swift */; };
+		841270A81F8F9F9900CBFA37 /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841270A61F8F9F9900CBFA37 /* SampleCollectionViewCell.swift */; };
+		841270A91F8F9F9900CBFA37 /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841270A71F8F9F9900CBFA37 /* SampleCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		841270941F8F9A6A00CBFA37 /* CollectionViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841270981F8F9A6B00CBFA37 /* CollectionViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewSampleUITests.swift; sourceTree = "<group>"; };
 		8412709A1F8F9A6B00CBFA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841270A61F8F9F9900CBFA37 /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		841270A71F8F9F9900CBFA37 /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				841270781F8F9A6A00CBFA37 /* AppDelegate.swift */,
 				8412707A1F8F9A6A00CBFA37 /* ViewController.swift */,
 				8412707C1F8F9A6A00CBFA37 /* Main.storyboard */,
+				841270A61F8F9F9900CBFA37 /* SampleCollectionViewCell.swift */,
+				841270A71F8F9F9900CBFA37 /* SampleCollectionViewCell.xib */,
 				8412707F1F8F9A6A00CBFA37 /* Assets.xcassets */,
 				841270811F8F9A6A00CBFA37 /* LaunchScreen.storyboard */,
 				841270841F8F9A6A00CBFA37 /* Info.plist */,
@@ -234,6 +240,7 @@
 			files = (
 				841270831F8F9A6A00CBFA37 /* LaunchScreen.storyboard in Resources */,
 				841270801F8F9A6A00CBFA37 /* Assets.xcassets in Resources */,
+				841270A91F8F9F9900CBFA37 /* SampleCollectionViewCell.xib in Resources */,
 				8412707E1F8F9A6A00CBFA37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8412707B1F8F9A6A00CBFA37 /* ViewController.swift in Sources */,
+				841270A81F8F9F9900CBFA37 /* SampleCollectionViewCell.swift in Sources */,
 				841270791F8F9A6A00CBFA37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
